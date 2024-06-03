@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #181818;
+    font-family:'Audiowide', sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color:#080F26;
+}
+
+
+header {
+    background-image: linear-gradient(to right, #080F26, #510783);
+    padding: 20px;
+
+    
+}
+
+header > nav {
+    text-align: left;
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+a:hover {
+    color: #510783;
+    background-color: #101e4d;
+    
+}
+ 
+#Titulo > h1 {
+    font-size: 80px;
+    padding-top: 50px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+#Titulo > p {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: #080F26;
+    text-align: center;
+    box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.329);
+}
+
+section.imagem {
+    background-color: rgb(82, 82, 82);
+    box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.329);
+}
+
+section.imagem > p {
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+}
+
+section.imagem > h2 {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+}
+
+
+
+section > p, h2{
+    padding-bottom: 10px;
+    font-size: 4vh;
+}
+
+
+
+section#img01 {
+    height: 300px;
+    background-image: url(Imagens/cyber1.jpg);
+    background-position: bottom left;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+}
+
+div#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+section#img02 {  
+    flex: 1; 
+    background-image: url(Imagens/cyber2.jpg);
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+    min-width: 300px
+}
+
+section.box-right >  p {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 0px;
+    font-size: 15px;
+    min-width: 300px;
+    max-width: 600px;
+    word-wrap: break-word;     
+}
+
+
+section#img03 {
+    background-image: url(Imagens/cyber3.jpg);
+    background-position: center left;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
+
+}
+
+
+footer {
+    background-image: linear-gradient(to right, #080F26, #510783);
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer > h1 > a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer > h1 > a:hover {
+    color: white;
+}

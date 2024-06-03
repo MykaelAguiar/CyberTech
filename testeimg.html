@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Ajusta a altura da seção */
+}
+
+.background-image {
+    flex: 1;
+    background-image: url('Imagens/cyber4.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+}
+
+.text-box h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.text-box p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+        
+    </style>
+</head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem com Texto ao Lado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background-image"></div>
+        <div class="text-box">
+            <h1>Título do Texto</h1>
+            <p>Este é o texto explicativo que ficará ao lado direito da imagem de fundo. Você pode adicionar mais informações aqui conforme necessário.</p>
+        </div>
+    </div>
+</body>
+</html>
